@@ -14,23 +14,28 @@ Pre-Requirements
 • Assignment 4 that supports reviews 
 
 Requirements 
+
 • Update your API to support storing an image (or image URL) for the movies you have stored.  
 You will use the image URL in your React application to show the image of movies 
 
 – New Attribute on the movie collection 
+
 • For this assignment all your endpoints should be protected by JWT authentication 
 • Implement the following interfaces 
 
 – User SignUp and User Logon 
+
 ▪ Leverage your User mongoDB collection to store new users of the application 
 
 – Main screen should show the top rated movies (show at least 5) 
+
 ▪ Your GET /movies endpoint should sort by rating (server side) 
 • Update  your  /movies  (with  reviews=true)  endpoint  to  sort  by average rating descending 
 
 – Movie  Detail  screen,  shows  the  Movie,  Image,  Actors  that  were  in  the  movie, aggregated rating for the movie and grid that shows the reviews (username, rating, review) 
 
 – Extra Credit: Movie Search – show results in a grid, accordion or other list control 
+
 ▪ Add Search API (HTTP POST) to the API that can take partial movie names or partial actor names 
 
 Acceptance Criteria 
